@@ -1,0 +1,14 @@
+h2{
+    position:relative
+}
+
+h2::before{
+    content:"";
+    display:inline-block;
+    width:3px;
+    height:40px;
+    background-color:dimgray;
+    position:absolute;
+    top:-2px;
+    left:-5px;
+}
